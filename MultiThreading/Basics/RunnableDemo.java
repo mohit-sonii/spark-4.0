@@ -1,3 +1,4 @@
+package multiThreading.Basics;
 class MyTask implements Runnable {
     @Override
     public void run() {

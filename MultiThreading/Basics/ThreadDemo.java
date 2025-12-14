@@ -1,3 +1,4 @@
+package multiThreading.Basics;
 
 class MyThread2 extends Thread {
 

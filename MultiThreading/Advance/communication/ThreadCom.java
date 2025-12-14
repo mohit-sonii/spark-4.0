@@ -1,4 +1,4 @@
-package communication;
+package multiThreading.Advance.communication;
 
 public class ThreadCom {
 

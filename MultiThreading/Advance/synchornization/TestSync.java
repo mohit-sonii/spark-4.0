@@ -1,4 +1,4 @@
-package synchornization;
+package multiThreading.Advance.synchornization;
 
 public class TestSync {
 
