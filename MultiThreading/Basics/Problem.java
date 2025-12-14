@@ -7,6 +7,20 @@ class Addition {
         sum += 1;
     }
 
+    // void add {
+    //     synchronized{
+    //         //
+    //     }
+    // }
+
+    /* we can make the thread synchronixed either by method or by block, then which is the optimal and shoudl be used ? 
+     
+        -> only the risky code shall be synchornized, for better performance not method as a whole
+     
+    */
+
+
+
 }
 
 class MyThread extends Thread {

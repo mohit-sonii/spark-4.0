@@ -1,5 +1,5 @@
 
-class MyThread extends Thread {
+class MyThread2 extends Thread {
 
     /*
     What is I do not override run() method in my thread class ?
