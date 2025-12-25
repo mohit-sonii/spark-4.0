@@ -84,5 +84,7 @@ public class Main {
             System.out.println(listIterator.previous());
         }
 
+       
+
     }
 }
