@@ -5,7 +5,12 @@ public class ComparableDemo {
     public static void main(String args[]){
          /*
         Comparable -> natural sorting, used in TreeSet, TreeMap, Arrays.sort(), Collections.sort(), ascending order
-        Comparator -> Custom Sorting
+          - All predefined wrapper classes implement Comparable interface
+          - it works on thred parameter - -1,0,1
+          - can we use Comparable for cusom classes? -> Yes, by implementing Comparable interface in custom classes
+          - This sorting is called TimSorting where JVM decides the sorting, also in the compareTo method ew have two objects, and we cannnot say which one will be picked by jvm and why next, when a new element is added it compares with all the previous elements and places it at the correct position.
+          
+        Comparator -> Custom Sorting, Customizer classes
         */
 
         ArrayList<Integer> list = new ArrayList<>();
